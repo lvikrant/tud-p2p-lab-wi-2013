@@ -73,7 +73,7 @@ public class SCServer {
 			iterator.remove();
 
 			if (!key.isValid()) {
-				;
+				return;
 			}
 			if (key.isAcceptable()) {
 				acceptConnection();
